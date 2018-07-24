@@ -1,0 +1,18 @@
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>登陆</title>
+</head>
+
+<body>
+<h1>登陆页面：</h1>
+<form method = 'post' enctype="multipart/form-data">
+    {% csrf_token %}
+    {{uf}}
+    <input type="submit" value = "ok" />
+</form>
+<br>
+<a href="/online/regist/">注册</a>
+</body>
+
+
